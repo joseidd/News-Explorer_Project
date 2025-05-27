@@ -1,0 +1,158 @@
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 104px;
+  border-bottom: 1px solid rgba(209, 210, 214, 1);
+}
+
+.nav__home {
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav__saved-news {
+  color: black;
+}
+
+.nav__logo {
+  width: 200px;
+  height: 24px;
+  font-family: "Roboto Slub";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.nav__logo:hover {
+  cursor: pointer;
+}
+
+.nav__links {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.nav__link {
+  height: 80px;
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 42px;
+  padding: 30px 0 23px 0;
+}
+
+.nav__link:hover {
+  color: inherit;
+  padding-bottom: 26px;
+  cursor: pointer;
+}
+
+.nav__link.active {
+  border-bottom: 3px solid;
+}
+
+.nav__link_home {
+  width: 68px;
+  border-color: #fff;
+}
+
+.nav__link_saved-news {
+  width: 178px;
+  border-color: #1a1b22;
+}
+
+.nav__link-pill-btn {
+  width: 112px;
+  height: 48px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+}
+
+.nav__saved-news .nav__link-pill-btn {
+  color: black;
+  border-color: black;
+  background-image: url(../../assets/logout.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.nav__home .nav__link-pill-btn {
+  background-image: url(../../assets/logout.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  filter: brightness(0) invert(1);
+}
+
+.nav__home .nav__link-pill-btn.signed-out {
+  background-image: none;
+  text-align: center;
+  width: 176px;
+}
+
+.nav__menu-btn {
+  display: none;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  background-image: url(../../assets/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    height: 66px;
+    padding: 0px 40px;
+  }
+
+  .nav__links {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .nav {
+    height: 56px;
+    padding: 0 16px;
+  }
+
+  .nav__logo {
+    font-size: 16px;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .nav__menu-btn {
+    display: block;
+    background-image: url(../../assets/menu-black.svg);
+  }
+
+  .nav__home .nav__menu-btn {
+    background-image: url(../../assets/menu.svg);
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .nav__home .nav__link-pill-btn {
+    background-image: none;
+    text-align: center;
+  }
+
+  .nav__link-pill-btn {
+    width: 100px;
+  }
+}
