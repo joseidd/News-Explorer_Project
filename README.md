@@ -1,8 +1,11 @@
-# React + Vite
+# News Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+News Explorer is a web application where you can search web articles by keywords.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Every time the user introduce a keyword into the search bar, the app will send a request to Api Service, and it will find all the lastest articles.
+
+# Run local
+
+https://github.com/joseidd/News-Explorer_Project cd project\_\_newsexplorer install npm run dev
