@@ -49,6 +49,7 @@
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
 .search-form__btn:hover {
@@ -74,6 +75,7 @@
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
 .search-form__btn_mobile:hover {

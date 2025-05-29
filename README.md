@@ -8,4 +8,4 @@ Every time the user introduce a keyword into the search bar, The app will send a
 
 # Run local
 
-https://github.com/joseidd/News-Explorer_Project cd project\_\_newsexplorer install npm run dev
+https://joseidd-news-explorer.netlify.app/
