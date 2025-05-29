@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, HashRouter } from "react-router-dom";
 import App from "./components/App/App";
 import Main from "./components/Main/Main";
 import SavedNews from "./components/SavedNews/SavedNews";

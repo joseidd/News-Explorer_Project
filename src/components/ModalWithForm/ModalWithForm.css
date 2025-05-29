@@ -101,6 +101,7 @@
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
 
 .modal__submit:focus {
