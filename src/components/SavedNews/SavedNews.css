@@ -26,5 +26,6 @@
 @media screen and (max-width: 540px) {
   .saved-news {
     display: block;
+    padding-left: 100px;
   }
 }

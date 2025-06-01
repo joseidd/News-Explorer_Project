@@ -58,24 +58,28 @@
   background-image: url(../../assets/save-normal-btn.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  border: none;
 }
 
 .card__save-btn:hover {
   background-image: url(../../assets/save-hover-btn.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  border: none;
 }
 
 .card__save-btn_marked {
   background-image: url(../../assets/save-marked-btn.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  border: none;
 }
 
 .card__delete-btn {
   background-image: url(../../assets/trash.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  border: none;
 }
 
 .card__alert-popup {

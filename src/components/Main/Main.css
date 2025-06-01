@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  /* background-color: #f5f6f7; */
+  background-color: #f5f6f7;
   padding: 0px;
 }
 
@@ -27,6 +27,7 @@ main {
   margin: 64px auto;
   align-items: baseline;
   border-radius: 10px;
+  background-color: rgba(245, 246, 247, 1);
 }
 
 .main__card-wrap_hidden {
@@ -63,6 +64,8 @@ main {
     padding-left: 40px;
     font-size: 30px;
     line-height: 34px;
+    display: flex;
+    justify-content: center;
   }
 
   .main__card-wrap {
@@ -73,6 +76,7 @@ main {
     gap: 8px;
     margin: 32px auto;
     border-radius: 10px;
+    justify-content: center;
   }
 
   .main__button {
@@ -90,7 +94,7 @@ main {
 
   .main__card-wrap {
     flex-direction: column;
-    padding: 0 16px;
+    padding: 0 110px;
     margin: 58px auto 16px;
   }
 

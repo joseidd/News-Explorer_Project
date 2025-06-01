@@ -19,7 +19,7 @@
 .nav__logo {
   width: 200px;
   height: 24px;
-  font-family: "Roboto Slub";
+  font-family: "Roboto Slab";
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -30,10 +30,10 @@
 }
 
 .nav__links {
-  font-family: "Roboto Slab";
+  /* font-family: "Roboto Slab";
   font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 24px; */
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
@@ -109,6 +109,7 @@
   background-image: url(../../assets/menu.svg);
   background-repeat: no-repeat;
   background-position: center;
+  border: none;
 }
 
 @media screen and (max-width: 768px) {
