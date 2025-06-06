@@ -1,20 +1,39 @@
 .card {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   position: relative;
   max-width: 400px;
   padding: 0;
+  background-color: #fff; */
+  width: 100%;
+  max-width: 400px;
+  height: 576px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
   background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .card__image {
-  max-width: 100%;
-  max-height: 272px;
-  border-radius: 10px;
+  width: 100%;
+  height: 272px;
+  object-fit: cover;
+  border-radius: 16px 16px 0 0;
 }
 
 .card__content {
   padding: 56px 24px 24px;
+  padding: 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto;
+  min-height: 200px;
 }
 
 .card__tag {
@@ -59,6 +78,12 @@
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  background-position: center;
+  background-size: 20px 20px;
+  cursor: pointer;
 }
 
 .card__save-btn:hover {
@@ -66,6 +91,8 @@
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
+  background-position: center;
+  background-size: 20px 20px;
 }
 
 .card__save-btn_marked {
@@ -73,6 +100,11 @@
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  background-position: center;
+  background-size: 20px 20px;
 }
 
 .card__delete-btn {
@@ -80,6 +112,23 @@
   background-size: contain;
   background-repeat: no-repeat;
   border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  background-position: center;
+  background-size: 20px 20px;
+}
+
+.card__delete-btn:hover {
+  background-image: url(../../assets/trash-hover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  transition: all 0.3s ease;
+  z-index: 2;
+  color: #000;
+  background-position: center;
+  background-size: 20px 20px;
 }
 
 .card__alert-popup {

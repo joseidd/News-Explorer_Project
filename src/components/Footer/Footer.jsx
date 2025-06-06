@@ -13,7 +13,7 @@ const Footer = () => {
             Home
           </Link>
           <a
-            href="https://www.tripleten.us/"
+            href="https://www.tripleten.com/"
             className="footer__link"
             target="_blank"
           >

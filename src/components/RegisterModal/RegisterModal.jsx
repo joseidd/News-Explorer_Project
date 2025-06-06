@@ -8,6 +8,7 @@ const RegisterModal = ({
   secondaryBtnText,
   onClose,
   onSubmit,
+  isOpen,
 }) => {
   const { values, handleChange } = useForm({});
 
@@ -28,6 +29,7 @@ const RegisterModal = ({
       title={title}
       buttonText={buttonText}
       secondaryBtnText={secondaryBtnText}
+      isOpen={isOpen}
       onClose={onClose}
       onSubmit={handleSubmit}
     >

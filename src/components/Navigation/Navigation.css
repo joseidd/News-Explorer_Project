@@ -155,5 +155,10 @@
 
   .nav__link-pill-btn {
     width: 100px;
+    height: 40px;
+    top: 14px;
+    left: 510px;
+    border-width: 1px;
+    position: absolute;
   }
 }

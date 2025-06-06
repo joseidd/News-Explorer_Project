@@ -111,12 +111,14 @@
 @media screen and (max-width: 618px) {
   .about__content {
     margin-left: 20px;
+    width: auto;
   }
 }
 
 @media screen and (max-width: 738px) {
   .about__content {
     margin-left: 20px;
+    width: auto;
   }
 }
 /* @media screen and (max-width: 768px) {
