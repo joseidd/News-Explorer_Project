@@ -1,8 +1,8 @@
 .about {
-  /* max-width: 1440px; */
+  max-width: 1440px;
   gap: 56px;
   padding: 80px 104px;
-  /* margin: 32px 0px auto; */
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   width: inherit;
@@ -52,6 +52,7 @@
 @media screen and (max-width: 920px) {
   .about {
     padding: 40px 40px 61px;
+    margin: 0 auto;
   }
 
   .about__author-image {
@@ -99,7 +100,7 @@
   .about__author-image {
     max-width: 272px;
     height: 272px;
-    margin: 0 auto 24px;
+    /* margin: 0 auto 24px; */
   }
 
   .about__paragraph {
