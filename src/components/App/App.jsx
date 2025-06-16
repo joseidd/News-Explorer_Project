@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Roller from "../Roller/Roller.jsx";
 import LoginModal from "../LoginModal/LoginModal";
 import RegisterModal from "../RegisterModal/RegisterModal";
+
 import getNews from "../../utils/newsApi.jsx";
 import "./App.css";
 import { Outlet } from "react-router-dom";
