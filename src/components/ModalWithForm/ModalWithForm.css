@@ -44,9 +44,9 @@
 }
 
 .modal__title {
-  width: 76px;
-  height: 32px;
-  font-family: Roboto;
+  /* width: 76px; */
+  height: 42px;
+  font-family: "Roboto-Black, Arial, sans-serif";
   font-weight: 900;
   font-size: 24px;
   line-height: 28.13px;
@@ -96,7 +96,7 @@
   border: none;
   background-color: #2f71e5;
   margin: 8px auto 16px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;

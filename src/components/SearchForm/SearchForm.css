@@ -17,7 +17,7 @@
 
 .search-form__input {
   width: 100%;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -44,7 +44,7 @@
   background-color: #2f71e5;
   backdrop-filter: blur(15px);
   border: none;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
@@ -70,7 +70,7 @@
   background-color: #2f71e5;
   backdrop-filter: blur(15px);
   border: none;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;

@@ -56,11 +56,13 @@
 @media screen and (max-width: 768px) {
   .app {
     width: fit-content;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .app {
     width: fit-content;
+    margin: 0 auto;
   }
 }
