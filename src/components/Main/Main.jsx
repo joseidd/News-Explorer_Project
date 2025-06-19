@@ -6,6 +6,7 @@ import Preloader from "../Preloader/Preloader";
 import "./Main.css";
 import { useOutletContext } from "react-router-dom";
 import UserContext from "../../context/UserContext";
+import NothingFound from "../NothingFound/NothingFound";
 
 const Main = () => {
   const {
@@ -14,6 +15,7 @@ const Main = () => {
     isLoading,
     hasSearched,
     handleCardRender,
+    searchError,
   } = useOutletContext();
   const { isLoggedIn } = useContext(UserContext);
 
@@ -39,6 +41,7 @@ const Main = () => {
               <NewsCard key={index} isLoggedIn={isLoggedIn} {...article} />
             ))}
           </ul>
+
           {visibleArticles < 100 && (
             <button
               type="button"
@@ -50,8 +53,9 @@ const Main = () => {
           )}
         </>
       ) : hasSearched ? (
-        <Preloader />
+        <NothingFound searchError={searchError} />
       ) : null}
+
       <About />
     </main>
   );

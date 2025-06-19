@@ -21,6 +21,11 @@ const App = () => {
   const [visibleArticles, setVisableArticles] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
+  const [searchError, setSearchError] = useState(false);
+  const [serverError, setServerError] = useState({
+    loginError: "",
+    regError: "",
+  });
 
   const handleSignUp = async (email, password) => {
     console.log("Starting registration...");
@@ -164,6 +169,7 @@ const App = () => {
             handleOnLoggout={handleLoggout}
             savedArticles={savedArticles}
           />
+
           <Outlet
             context={{
               visibleArticles,
@@ -173,6 +179,7 @@ const App = () => {
               isLoading,
               hasSearched,
               handleSaveArticle,
+              searchError,
             }}
           />
           <Footer />
