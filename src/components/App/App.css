@@ -38,7 +38,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
   padding: 0;
   margin: 0 auto;
@@ -49,20 +49,18 @@
   display: flex;
   flex-direction: column;
   /* max-width: 1440px; */
-  width: 100%;
+  max-width: 100%;
   font-family: "Roboto";
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .app {
-    width: fit-content;
-    margin: 0 auto;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .app {
-    width: fit-content;
     margin: 0 auto;
   }
-} */
+}
