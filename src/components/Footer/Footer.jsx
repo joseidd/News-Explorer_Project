@@ -1,4 +1,4 @@
-import githubIcon from "../../assets/github.svg";
+import githubIcon from "../../assets/github.png";
 import instagramIcon from "../../assets/instagram-black.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
