@@ -1,4 +1,4 @@
-import githubIcon from "../../assets/github.png";
+import githubIcon from "../../assets/github.svg";
 import instagramIcon from "../../assets/instagram-black.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://github.com/joseidd"
             target="_blank"
           >
-            <img src={githubIcon} alt="github link"></img>
+            <img src={githubIcon} alt="github link"></img>github
           </a>
 
           <a
@@ -34,7 +34,7 @@ const Footer = () => {
             href="https://www.instagram.com/j.durann99/profilecard/?igsh=MWVpeG9leXE1ZGQwcw=="
             target="_blank"
           >
-             <img  src={instagramIcon} alt="instagram link"></img>
+             <img  src={instagramIcon} alt="instagram link"></img>instagram
           </a>
          
         </div>
