@@ -1,5 +1,5 @@
 import githubIcon from "../../assets/github.svg";
-import facebookIcon from "../../assets/fb.svg";
+import instagramIcon from "../../assets/instagram-black.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -13,11 +13,11 @@ const Footer = () => {
             Home
           </Link>
           <a
-            href="https://www.tripleten.com/"
+            href="https://www.linkedin.com/in/jose-duran-338a34189/"
             className="footer__link"
             target="_blank"
           >
-            Tripleten
+            Linkedin
           </a>
         </div>
         <div className="footer__icons">
@@ -30,12 +30,13 @@ const Footer = () => {
           </a>
 
           <a
-            className="footer__icons-link"
-            href="https://www.facebook.com/"
+            className="footer__icons-instagram"
+            href="https://www.instagram.com/j.durann99/profilecard/?igsh=MWVpeG9leXE1ZGQwcw=="
             target="_blank"
           >
-            <img src={facebookIcon} alt="facebook page" />
+             <img  src={instagramIcon} alt="instagram link"></img>
           </a>
+         
         </div>
       </div>
     </footer>

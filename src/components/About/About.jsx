@@ -1,5 +1,5 @@
 import React from "react";
-import authorImg from "../../assets/author.jpg";
+import authorImg from "../../assets/jose.jpeg";
 import "./About.css";
 
 const About = () => {
@@ -7,14 +7,15 @@ const About = () => {
     <div className="about">
       <img src={authorImg} alt="Johan Suarez" className="about__author-image" />
       <div className="about__content">
-        <h4 className="about__header">About the author</h4>
+        <h4 className="about__header">Jose Duran</h4>
         <p className="about__paragraph">
-          This block describes the project author. Here you should indicate your
-          name, what you do, and which development technologies you know.
-        </p>
-        <p>
-          You can also talk about your experience with TripleTen, what you
-          learned there, and how you can help potential customers.
+          I am a dedicated and innovative software engineer with a deep passion
+          for technology and problem-solving. With several years of experience,
+          I have honed my skills in designing, developing, and deploying
+          software solutions that drive efficiency and productivity. My
+          expertise spans across multiple programming languages and frameworks,
+          allowing me to adapt quickly to new technologies and deliver
+          high-quality code that meets business objectives.
         </p>
       </div>
     </div>
