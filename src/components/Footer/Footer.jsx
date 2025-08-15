@@ -26,7 +26,7 @@ const Footer = () => {
             href="https://github.com/joseidd"
             target="_blank"
           >
-            <img src={githubIcon} alt="github link"></img>github
+            <img src={githubIcon} alt="github link"></img>
           </a>
 
           <a
@@ -34,7 +34,7 @@ const Footer = () => {
             href="https://www.instagram.com/j.durann99/profilecard/?igsh=MWVpeG9leXE1ZGQwcw=="
             target="_blank"
           >
-             <img  src={instagramIcon} alt="instagram link"></img>instagram
+             <img  src={instagramIcon} alt="instagram link"></img>
           </a>
          
         </div>
