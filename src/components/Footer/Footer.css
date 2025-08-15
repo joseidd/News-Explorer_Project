@@ -80,6 +80,15 @@
     padding-bottom: 18px;
     padding-top: 24px;
   }
+  .footer__icons-instagram{
+
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    gap: 24px;
+    width: 40px;
+  }
+  
 }
 
 @media screen and (max-width: 470px) {
@@ -100,17 +109,29 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    
   }
   .footer__links {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
   }
   .footer__icons {
     display: flex;
     align-items: center;
     gap: 30px;
     padding-right: 20px;
+  width: auto;
   }
+  .footer__icons-instagram{
+display: flex;
+    position: relative;
+    bottom: 1px;
+    left: 10px;
+    gap: 24px;
+  
+  }
+  
 }
